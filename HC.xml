@@ -182,11 +182,131 @@
 			</HealthStatusActor>
 		</FamilyMember>
 	</FamilyTumorHistory>
+	<FamilyTumorHistory>
+		<CCRDataObjectID>ID-12a3ac07-a341-45bb-be40-655e6b1a0b54</CCRDataObjectID>
+		<FamilyMember>
+			<ActorID>ID-12a3ac07-a341-45bb-be40-655e6b1a0b54</ActorID>
+			<ActorRole>
+				<Text>Abuela paterna</Text>
+				<Code>
+					<Value>394856008</Value>
+					<CodingSystem>SNOMEDCT</CodingSystem>
+					<Version>2014</Version>
+				</Code>
+			</ActorRole>
+			<HealthStatusActor>
+				<PresenceOfTumor>No</PresenceOfTumor>
+				<Description>
+					<Text>Vivo</Text>
+					<Code>
+						<Value>438949009</Value>
+						<CodingSystem>SNOMEDCT</CodingSystem>
+						<Version>2014</Version>
+					</Code>
+				</Description>
+				<TimeOfDeath>
+					<Age>
+						<Value>82</Value>
+						<Units>
+							<Unit>años</Unit>
+						</Units>
+					</Age>
+				</TimeOfDeath>
+			</HealthStatusActor>
+		</FamilyMember>
+	</FamilyTumorHistory>
+	<FamilyTumorHistory>
+		<CCRDataObjectID>ID-12a3ac07-a341-45bb-be40-655e6b1a0b54</CCRDataObjectID>
+		<FamilyMember>
+			<ActorID>ID-5e3b9f8d-ab53-482a-7963-6229bce92e2b</ActorID>
+			<ActorRole>
+				<Text>Tio paterno</Text>
+				<Code>
+					<Value>66839005</Value>
+					<CodingSystem>SNOMEDCT</CodingSystem>
+					<Version>2014</Version>
+				</Code>
+			</ActorRole>
+			<HealthStatusActor>
+				<PresenceOfTumor>Si</PresenceOfTumor>
+				<Description>
+					<Text>Fallecido</Text>
+					<Code>
+						<Value>397709008</Value>
+						<CodingSystem>SNOMEDCT</CodingSystem>
+						<Version>2014</Version>
+					</Code>
+				</Description>
+				<CauseOfDeath>Si</CauseOfDeath>
+				<TimeOfDeath>
+					<Age>
+						<Value>59</Value>
+						<Units>
+							<Unit>años</Unit>
+						</Units>
+					</Age>
+				</TimeOfDeath>
+			</HealthStatusActor>
+		</FamilyMember>
+		<Tumor>
+			<CCRDataObjectID>ID-f5037278-806a-4e59-ac13-129350b44820</CCRDataObjectID>
+			<AgeOfDiagnosis>
+				<Age>
+					<Value>54</Value>
+					<Units>
+						<Unit>años</Unit>
+					</Units>
+				</Age>
+			</AgeOfDiagnosis>
+			<TypeOfTumor>
+				<Description>
+					<Text>Cáncer Colorrectal</Text>
+					<Code>
+						<Value>160499008</Value>
+						<CodingSystem>SNOMEDCT</CodingSystem>
+						<Version>2014</Version>
+					</Code>
+				</Description>
+			</TypeOfTumor>
+		</Tumor>
+	</FamilyTumorHistory>	
 	</FamilyHistory>
 	</Body>
 	<Actors>
 	<Actor>
-		<ActorObjectID>ID-0b3351ae-45dd-4bfd-a50d-68f2f7fe40bf</ActorObjectID>
+		<ActorObjectID>ID-0b3351ae-59dd-4bfd-a52d-70f2f7fe40bf</ActorObjectID>
+		<Person>
+			<Name>
+				<CurrentName>
+					<Given>Fernando</Given>
+					<Middle>Martinez</Middle>
+					<Family>San Emeterio</Family>
+				</CurrentName>
+				<DisplayName>Fernando Martinez San Emeterio</DisplayName>
+			</Name>
+			<DateOfBirth>
+				<ExactDateTime>1982-08-24</ExactDateTime>
+			</DateOfBirth>
+			<Gender>
+				<Text>Masculino</Text>
+				<Code>
+					<Value>10052007</Value>
+					<CodingSystem>SNOMEDCT</CodingSystem>
+					<Version>2014</Version>
+				</Code>
+			</Gender>
+		</Person>
+		<Relation>
+			<Text>Probando</Text>
+		</Relation>
+		<Source>
+			<Description>
+				<Text>Desconocido</Text>
+			</Description>
+		</Source>
+	</Actor>
+	<Actor>
+		<ActorObjectID>ID-0b3351ib-45dd-4bfd-a50d-68f2f7fe40bf</ActorObjectID>
 		<Person>
 			<Name>
 				<CurrentName>
@@ -197,7 +317,7 @@
 				<DisplayName>Fernando Martinez Ruiz</DisplayName>
 			</Name>
 			<DateOfBirth>
-				<ExactDateTime>1939-05-30</ExactDateTime>
+				<ExactDateTime>1949-05-30</ExactDateTime>
 			</DateOfBirth>
 			<Gender>
 				<Text>Masculino</Text>
@@ -219,6 +339,134 @@
 	</Actor>
 	<Actor>
 		<ActorObjectID>ID-0b3351ae-45dd-4bfd-a50d-68f2f7fe40bf</ActorObjectID>
+		<Person>
+			<Name>
+				<CurrentName>
+					<Given>Fernando</Given>
+					<Middle>Martinez</Middle>
+					<Family>Lopez</Family>
+				</CurrentName>
+				<DisplayName>Fernando Martinez Lopez</DisplayName>
+			</Name>
+			<DateOfBirth>
+				<ExactDateTime>1925-04-28</ExactDateTime>
+			</DateOfBirth>
+			<Gender>
+				<Text>Masculino</Text>
+				<Code>
+					<Value>10052007</Value>
+					<CodingSystem>SNOMEDCT</CodingSystem>
+					<Version>2014</Version>
+				</Code>
+			</Gender>
+		</Person>
+		<Relation>
+			<Text>Abuelo paterno</Text>
+		</Relation>
+		<Source>
+			<Description>
+				<Text>Desconocido</Text>
+			</Description>
+		</Source>
+	</Actor>
+	<Actor>
+		<ActorObjectID>ID-0b3351ae-59dd-4bfd-a50d-68f2f7fe40bf</ActorObjectID>
+		<Person>
+			<Name>
+				<CurrentName>
+					<Given>Maria</Given>
+					<Middle>Ruiz</Middle>
+					<Family>Lupe</Family>
+				</CurrentName>
+				<DisplayName>Maria Ruiz Lupe</DisplayName>
+			</Name>
+			<DateOfBirth>
+				<ExactDateTime>1932-06-19</ExactDateTime>
+			</DateOfBirth>
+			<Gender>
+				<Text>Femenino</Text>
+				<Code>
+					<Value>1086007</Value>
+					<CodingSystem>SNOMEDCT</CodingSystem>
+					<Version>2014</Version>
+				</Code>
+			</Gender>
+		</Person>
+		<Relation>
+			<Text>Abuela paterna</Text>
+		</Relation>
+		<Source>
+			<Description>
+				<Text>Desconocido</Text>
+			</Description>
+		</Source>
+	</Actor>
+	<Actor>
+		<ActorObjectID>ID-0b3151ae-45dd-4bfd-a50d-68f2f7fe40bf</ActorObjectID>
+		<Person>
+			<Name>
+				<CurrentName>
+					<Given>Luis</Given>
+					<Middle>Martinez</Middle>
+					<Family>Lopez</Family>
+				</CurrentName>
+				<DisplayName>Luis Martinez Ruiz</DisplayName>
+			</Name>
+			<DateOfBirth>
+				<ExactDateTime>1955-01-17</ExactDateTime>
+			</DateOfBirth>
+			<Gender>
+				<Text>Masculino</Text>
+				<Code>
+					<Value>10052007</Value>
+					<CodingSystem>SNOMEDCT</CodingSystem>
+					<Version>2014</Version>
+				</Code>
+			</Gender>
+		</Person>
+		<Relation>
+			<Text>Tio paterno</Text>
+		</Relation>
+		<Source>
+			<Description>
+				<Text>Desconocido</Text>
+			</Description>
+		</Source>
+	</Actor>
+	<Actor>
+		<ActorObjectID>ID-0b3351ae-45dd-4bfd-a50d-68f2f7fu40bf</ActorObjectID>
+		<Person>
+			<Name>
+				<CurrentName>
+					<Given>Eva</Given>
+					<Middle>Martinez</Middle>
+					<Family>Ruiz</Family>
+				</CurrentName>
+				<DisplayName>Eva Martinez Ruiz</DisplayName>
+			</Name>
+			<DateOfBirth>
+				<ExactDateTime>1964-08-22</ExactDateTime>
+			</DateOfBirth>
+			<Gender>
+				<Text>Femenino</Text>
+				<Code>
+					<Value>1086007</Value>
+					<CodingSystem>SNOMEDCT</CodingSystem>
+					<Version>2014</Version>
+				</Code>
+			</Gender>
+		</Person>
+		<Relation>
+			<Text>Tia paterna</Text>
+		</Relation>
+		<Source>
+			<Description>
+				<Text>Desconocido</Text>
+			</Description>
+		</Source>
+	</Actor>
+	<Actor>
+		<ActorObjectID>ID-0b3351ae-40dd-4bfd-a50d-68f2f7fe40bf</ActorObjectID>
 		<Person>
 			<Name>
 				<CurrentName>
@@ -249,9 +497,101 @@
 			</Description>
 		</Source>
 	</Actor>
+	<Actor>
+		<ActorObjectID>ID-0b3351ae-45dd-4bfd-a50d-70f2f7fe40bf</ActorObjectID>
+		<Person>
+			<Name>
+				<CurrentName>
+					<Given>Antonio</Given>
+					<Middle>San Emeterio</Middle>
+					<Family>Garcia</Family>
+				</CurrentName>
+				<DisplayName>Antonio San Emeterio Garcia</DisplayName>
+			</Name>
+			<DateOfBirth>
+				<ExactDateTime>1931-04-01</ExactDateTime>
+			</DateOfBirth>
+			<Gender>
+				<Text>Masculino</Text>
+				<Code>
+					<Value>10052007</Value>
+					<CodingSystem>SNOMEDCT</CodingSystem>
+					<Version>2014</Version>
+				</Code>
+			</Gender>
+		</Person>
+		<Relation>
+			<Text>Abuelo materno</Text>
+		</Relation>
+		<Source>
+			<Description>
+				<Text>Desconocido</Text>
+			</Description>
+		</Source>
+	</Actor>
+	<Actor>
+		<ActorObjectID>ID-0b3351ae-59dd-4bfd-a50d-68f2f7fe40bf</ActorObjectID>
+		<Person>
+			<Name>
+				<CurrentName>
+					<Given>Ana</Given>
+					<Middle>Gonzalez</Middle>
+					<Family>Ruiz</Family>
+				</CurrentName>
+				<DisplayName>Ana Gonzalez Ruiz</DisplayName>
+			</Name>
+			<DateOfBirth>
+				<ExactDateTime>1932-06-19</ExactDateTime>
+			</DateOfBirth>
+			<Gender>
+				<Text>Femenino</Text>
+				<Code>
+					<Value>1086007</Value>
+					<CodingSystem>SNOMEDCT</CodingSystem>
+					<Version>2014</Version>
+				</Code>
+			</Gender>
+		</Person>
+		<Relation>
+			<Text>Abuela materna</Text>
+		</Relation>
+		<Source>
+			<Description>
+				<Text>Desconocido</Text>
+			</Description>
+		</Source>
+	</Actor>
+	<Actor>
+		<ActorObjectID>ID-0b3351ae-45dd-4bfd-a50d-68f2f7fu40bf</ActorObjectID>
+		<Person>
+			<Name>
+				<CurrentName>
+					<Given>Gema</Given>
+					<Middle>San Emeterio</Middle>
+					<Family>Ruiz</Family>
+				</CurrentName>
+				<DisplayName>Gema San Emeterio Ruiz</DisplayName>
+			</Name>
+			<DateOfBirth>
+				<ExactDateTime>1964-08-22</ExactDateTime>
+			</DateOfBirth>
+			<Gender>
+				<Text>Femenino</Text>
+				<Code>
+					<Value>1086007</Value>
+					<CodingSystem>SNOMEDCT</CodingSystem>
+					<Version>2014</Version>
+				</Code>
+			</Gender>
+		</Person>
+		<Relation>
+			<Text>Tia materna</Text>
+		</Relation>
+		<Source>
+			<Description>
+				<Text>Desconocido</Text>
+			</Description>
+		</Source>
+	</Actor>
 	</Actors>
 </ContinuityOfCareRecord>
-
-
-
-
