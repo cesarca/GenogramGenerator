@@ -306,6 +306,70 @@
 		</Source>
 	</Actor>
 	<Actor>
+		<ActorObjectID>ID-0b3351ae-59dd-4bfd-a52d-70f2f7fe40bf</ActorObjectID>
+		<Person>
+			<Name>
+				<CurrentName>
+					<Given>Juan</Given>
+					<Middle>Martinez</Middle>
+					<Family>San Emeterio</Family>
+				</CurrentName>
+				<DisplayName>Juan Martinez San Emeterio</DisplayName>
+			</Name>
+			<DateOfBirth>
+				<ExactDateTime>1982-08-24</ExactDateTime>
+			</DateOfBirth>
+			<Gender>
+				<Text>Masculino</Text>
+				<Code>
+					<Value>10052007</Value>
+					<CodingSystem>SNOMEDCT</CodingSystem>
+					<Version>2014</Version>
+				</Code>
+			</Gender>
+		</Person>
+		<Relation>
+			<Text>Hermano</Text>
+		</Relation>
+		<Source>
+			<Description>
+				<Text>Desconocido</Text>
+			</Description>
+		</Source>
+	</Actor>
+	<Actor>
+		<ActorObjectID>ID-0b3351ae-59dd-4bfd-a52d-70f2f7fe40bf</ActorObjectID>
+		<Person>
+			<Name>
+				<CurrentName>
+					<Given>Silvia</Given>
+					<Middle>Martinez</Middle>
+					<Family>San Emeterio</Family>
+				</CurrentName>
+				<DisplayName>Silvia Martinez San Emeterio</DisplayName>
+			</Name>
+			<DateOfBirth>
+				<ExactDateTime>1982-08-24</ExactDateTime>
+			</DateOfBirth>
+			<Gender>
+				<Text>Femenino</Text>
+				<Code>
+					<Value>1086007</Value>
+					<CodingSystem>SNOMEDCT</CodingSystem>
+					<Version>2014</Version>
+				</Code>
+			</Gender>
+		</Person>
+		<Relation>
+			<Text>Hermana</Text>
+		</Relation>
+		<Source>
+			<Description>
+				<Text>Desconocido</Text>
+			</Description>
+		</Source>
+	</Actor>
+	<Actor>
 		<ActorObjectID>ID-0b3351ib-45dd-4bfd-a50d-68f2f7fe40bf</ActorObjectID>
 		<Person>
 			<Name>
